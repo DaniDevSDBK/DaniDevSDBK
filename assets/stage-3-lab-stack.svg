@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <pattern id="grid3en" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#18202a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .pill { fill: #111922; stroke: #2c3a4b; stroke-width: 1; }
+    .accent { fill: #77E3C0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .blue { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .h3 { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13.5px; font-weight: 700; }
+    .txt { fill: #9da7b3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; }
+    .mono { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.8px; }
+    .tag { fill: #0d1117; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; font-weight: 700; }
+
+    .s1 { opacity: 0.22; animation: show3en 0.45s ease-out 0.2s forwards; }
+    .s2 { opacity: 0.22; animation: show3en 0.45s ease-out 1.0s forwards; }
+    .s3 { opacity: 0.22; animation: show3en 0.45s ease-out 1.8s forwards; }
+    @keyframes show3en {
+      to { opacity: 1; }
+    }
+
+    .curX { animation: mX3en 3.6s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curY { animation: mY3en 3.8s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curZ { animation: mZ3en 4.0s cubic-bezier(0.22,1,0.36,1) forwards; }
+
+    @keyframes mX3en {
+      0% { transform: translate(90px, 55px); }
+      50% { transform: translate(230px, 125px); }
+      100% { transform: translate(380px, 170px); }
+    }
+    @keyframes mY3en {
+      0% { transform: translate(740px, 65px); }
+      50% { transform: translate(620px, 130px); }
+      100% { transform: translate(800px, 170px); }
+    }
+    @keyframes mZ3en {
+      0% { transform: translate(120px, 370px); }
+      50% { transform: translate(440px, 330px); }
+      100% { transform: translate(790px, 375px); }
+    }
+  </style>
+
+  <rect class="bg" x="1" y="1" width="878" height="418" rx="12"/>
+  <rect x="2" y="2" width="876" height="416" rx="11" fill="url(#grid3en)"/>
+
+  <circle cx="22" cy="20" r="4.5" fill="#ff5f56"/><circle cx="38" cy="20" r="4.5" fill="#ffbd2e"/><circle cx="54" cy="20" r="4.5" fill="#27c93f"/>
+  <text x="74" y="24" class="mono">03 · active-repos-agents-and-full-stack.canvas — AIHub · Orquesta (Tauri) · .NET · Rust · TS</text>
+
+  <!-- Left: Repositories -->
+  <g class="s1">
+    <rect x="28" y="42" width="404" height="164" rx="9" class="card"/>
+    <text x="46" y="64" class="blue">REPOSITORIES · PUBLIC &amp; PRIVATE</text>
+    <text x="46" y="86" class="h3">Active builds:</text>
+    <text x="135" y="86" class="txt">AIHub (Rust) · Orquesta (Tauri) · Inventar.io (C#)</text>
+    <text x="46" y="110" class="h3">Other builds:</text>
+    <text x="135" y="110" class="txt">Checkzy, ChronoWork, Decidex, Guildly, BotTrading</text>
+    <text x="46" y="136" class="h3">Open repos:</text>
+    <text x="125" y="136" class="txt">ProjectDI_WPF · PManager · Statsfy · Portfolio.v2</text>
+    <text x="46" y="162" class="txt">• Desktop (Tauri, WPF, WinForms, MAUI), backend APIs &amp; web</text>
+    <text x="46" y="186" class="mono">github.com/DaniDevSDBK · Private repos kept confidential</text>
+  </g>
+
+  <!-- Right: AI-Assisted Engineering -->
+  <g class="s2">
+    <rect x="448" y="42" width="404" height="164" rx="9" class="card" stroke="#58a6ff" stroke-dasharray="4 3"/>
+    <text x="466" y="64" class="accent">AI ORCHESTRATION &amp; AGENTS (AIHub · Orquesta)</text>
+    <text x="466" y="86" class="h3">Coordination → Specialists → Determinism → Review</text>
+    <text x="466" y="110" class="txt">• Specialist agents for planning, coding, and QA in sandboxes</text>
+    <text x="466" y="130" class="txt">• Deterministic scripts &amp; Git tooling for repeatable mechanics</text>
+    <text x="466" y="150" class="txt">• Desktop orchestrator Orquesta (Tauri) &amp; AIHub core (Rust)</text>
+    <text x="466" y="172" class="txt">• Human review, integration &amp; architectural sign-off on all code</text>
+    <text x="466" y="192" class="blue">AI accelerates analysis &amp; testing; I own every final decision</text>
+  </g>
+
+  <!-- Bottom: Full Technical Stack -->
+  <g class="s3">
+    <rect x="28" y="220" width="824" height="180" rx="9" class="card"/>
+    <text x="46" y="244" class="h3">Full technical stack &amp; engineering capabilities</text>
+
+    <!-- Row 1: Languages, Backend & Desktop -->
+    <rect x="46" y="258" width="40" height="25" rx="5" class="pill"/><text x="58" y="274" class="mono">C#</text>
+    <rect x="92" y="258" width="66" height="25" rx="5" class="pill"/><text x="103" y="274" class="mono">VB.NET</text>
+    <rect x="164" y="258" width="82" height="25" rx="5" class="pill"/><text x="175" y="274" class="mono">.NET 10 / 8</text>
+    <rect x="252" y="258" width="102" height="25" rx="5" class="pill"/><text x="262" y="274" class="mono">ASP.NET Core</text>
+    <rect x="360" y="258" width="64" height="25" rx="5" class="pill"/><text x="370" y="274" class="mono">EF Core</text>
+    <rect x="430" y="258" width="52" height="25" rx="5" class="pill"/><text x="442" y="274" class="mono">Rust</text>
+    <rect x="488" y="258" width="56" height="25" rx="5" class="pill"/><text x="499" y="274" class="mono">Tauri</text>
+    <rect x="550" y="258" width="52" height="25" rx="5" class="pill"/><text x="562" y="274" class="mono">WPF</text>
+    <rect x="608" y="258" width="76" height="25" rx="5" class="pill"/><text x="618" y="274" class="mono">WinForms</text>
+    <rect x="690" y="258" width="84" height="25" rx="5" class="pill"/><text x="700" y="274" class="mono">.NET MAUI</text>
+    <rect x="780" y="258" width="54" height="25" rx="5" class="pill"/><text x="791" y="274" class="mono">MVVM</text>
+
+    <!-- Row 2: Frontend, Data & Integration -->
+    <rect x="46" y="291" width="88" height="25" rx="5" class="pill"/><text x="57" y="307" class="mono">TypeScript</text>
+    <rect x="140" y="291" width="84" height="25" rx="5" class="pill"/><text x="150" y="307" class="mono">JavaScript</text>
+    <rect x="230" y="291" width="96" height="25" rx="5" class="pill"/><text x="241" y="307" class="mono">React · PWA</text>
+    <rect x="332" y="291" width="84" height="25" rx="5" class="pill"/><text x="342" y="307" class="mono">HTML · CSS</text>
+    <rect x="422" y="291" width="94" height="25" rx="5" class="pill"/><text x="433" y="307" class="mono">SQL Server</text>
+    <rect x="522" y="291" width="98" height="25" rx="5" class="pill"/><text x="532" y="307" class="mono">T-SQL · SPs</text>
+    <rect x="626" y="291" width="96" height="25" rx="5" class="pill"/><text x="636" y="307" class="mono">REST · OAuth2</text>
+    <rect x="728" y="291" width="106" height="25" rx="5" class="pill"/><text x="738" y="307" class="mono">XML/XSD · SMTP</text>
+
+    <!-- Row 3: Cloud, Quality, Security & Automation -->
+    <rect x="46" y="324" width="60" height="25" rx="5" class="pill"/><text x="58" y="340" class="mono">Azure</text>
+    <rect x="112" y="324" width="44" height="25" rx="5" class="pill"/><text x="123" y="340" class="mono">Git</text>
+    <rect x="162" y="324" width="144" height="25" rx="5" class="pill"/><text x="172" y="340" class="mono">CI · Integration Tests</text>
+    <rect x="312" y="324" width="102" height="25" rx="5" class="pill"/><text x="322" y="340" class="mono">Code Review</text>
+    <rect x="420" y="324" width="144" height="25" rx="5" class="pill"/><text x="430" y="340" class="mono">Concurrency · RSA</text>
+    <rect x="570" y="324" width="142" height="25" rx="5" class="pill"/><text x="580" y="340" class="mono">AI Agents · Workflows</text>
+    <rect x="718" y="324" width="116" height="25" rx="5" class="pill"/><text x="728" y="340" class="mono">MQL4 · Excel</text>
+
+    <text x="46" y="376" class="accent">End-to-end engineering · Backend · Desktop (Tauri / WPF) · Data · Integrations · AI Tooling</text>
+  </g>
+
+  <g class="curX">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#58a6ff"/>
+    <rect x="11" y="13" width="54" height="16" rx="4" fill="#58a6ff"/>
+    <text x="17" y="24" class="tag">Tauri</text>
+  </g>
+  <g class="curY">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#77E3C0"/>
+    <rect x="11" y="13" width="54" height="16" rx="4" fill="#77E3C0"/>
+    <text x="17" y="24" class="tag">Agents</text>
+  </g>
+  <g class="curZ">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#d2a8ff"/>
+    <rect x="11" y="13" width="46" height="16" rx="4" fill="#d2a8ff"/>
+    <text x="17" y="24" class="tag">Stack</text>
+  </g>
+</svg>

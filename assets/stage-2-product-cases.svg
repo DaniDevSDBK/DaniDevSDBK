@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 442" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <pattern id="grid2en" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#18202a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .pill { fill: #111922; stroke: #2c3a4b; stroke-width: 1; }
+    .title { fill: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .accent { fill: #77E3C0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .blue { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .h3 { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13.5px; font-weight: 700; }
+    .txt { fill: #9da7b3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; }
+    .mono { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+    .tag { fill: #0d1117; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; font-weight: 700; }
+
+    .p1 { opacity: 0.22; animation: show2en 0.45s ease-out 0.2s forwards; }
+    .p2 { opacity: 0.22; animation: show2en 0.45s ease-out 0.9s forwards; }
+    .p3 { opacity: 0.22; animation: show2en 0.45s ease-out 1.6s forwards; }
+    .p4 { opacity: 0.22; animation: show2en 0.45s ease-out 2.3s forwards; }
+    @keyframes show2en {
+      to { opacity: 1; }
+    }
+
+    .curA { animation: mAen 3.6s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curB { animation: mBen 3.8s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curC { animation: mCen 4.0s cubic-bezier(0.22,1,0.36,1) forwards; }
+
+    @keyframes mAen {
+      0% { transform: translate(110px, 60px); }
+      40% { transform: translate(380px, 125px); }
+      80% { transform: translate(260px, 290px); }
+      100% { transform: translate(265px, 388px); }
+    }
+    @keyframes mBen {
+      0% { transform: translate(760px, 85px); }
+      45% { transform: translate(540px, 255px); }
+      85% { transform: translate(545px, 330px); }
+      100% { transform: translate(545px, 388px); }
+    }
+    @keyframes mCen {
+      0% { transform: translate(140px, 395px); }
+      50% { transform: translate(760px, 300px); }
+      100% { transform: translate(825px, 388px); }
+    }
+  </style>
+
+  <rect class="bg" x="1" y="1" width="878" height="440" rx="12"/>
+  <rect x="2" y="2" width="876" height="438" rx="11" fill="url(#grid2en)"/>
+
+  <circle cx="22" cy="20" r="4.5" fill="#ff5f56"/><circle cx="38" cy="20" r="4.5" fill="#ffbd2e"/><circle cx="54" cy="20" r="4.5" fill="#27c93f"/>
+  <text x="74" y="24" class="mono">02 · live-product-and-production-cases.canvas — Inventar.io · ERP · APIs · Reliability</text>
+
+  <g class="p1">
+    <rect x="28" y="42" width="824" height="158" rx="9" class="card" stroke="#77E3C0" stroke-dasharray="4 3"/>
+    <rect x="46" y="56" width="102" height="20" rx="5" fill="#132e27"/>
+    <text x="55" y="70" class="accent">LIVE PRODUCT</text>
+    <text x="158" y="72" class="title">Inventar.io</text>
+    <text x="278" y="72" class="txt">— Multi-warehouse inventory web &amp; mobile app used in real operations</text>
+
+    <text x="46" y="98" class="txt">• Catalog &amp; locations: products and variants organized by warehouse &amp; bin   • Traceable stock movements: inbound, outbound &amp; transfers</text>
+    <text x="46" y="118" class="txt">• Reservations &amp; fulfillment: multi-item reservations, picking, delivery &amp; cancellation · Designed core architecture &amp; C# backend</text>
+    <text x="46" y="138" class="blue">React/TypeScript/PWA frontend built with AI assistance (reviewed &amp; integrated) · Private repo, zero customer data exposed</text>
+
+    <rect x="46" y="156" width="66" height="24" rx="5" class="pill"/><text x="58" y="172" class="mono">.NET 10</text>
+    <rect x="120" y="156" width="106" height="24" rx="5" class="pill"/><text x="131" y="172" class="mono">ASP.NET Core</text>
+    <rect x="234" y="156" width="38" height="24" rx="5" class="pill"/><text x="245" y="172" class="mono">C#</text>
+    <rect x="280" y="156" width="68" height="24" rx="5" class="pill"/><text x="291" y="172" class="mono">EF Core</text>
+    <rect x="356" y="156" width="136" height="24" rx="5" class="pill"/><text x="366" y="172" class="mono">React · TS · PWA</text>
+  </g>
+
+  <g class="p2">
+    <rect x="28" y="214" width="264" height="202" rx="9" class="card"/>
+    <text x="44" y="236" class="accent">CASE 01 · ERP COMPLIANCE</text>
+    <text x="44" y="256" class="h3">Tax rules &amp; accounting integrity</text>
+    <text x="44" y="278" class="txt">Regulatory updates across invoicing</text>
+    <text x="44" y="296" class="txt">workflows, credit notes, valid states,</text>
+    <text x="44" y="314" class="txt">audit trails, and consistency across</text>
+    <text x="44" y="332" class="txt">line items, totals, and SQL Server.</text>
+    <text x="44" y="366" class="mono">C# · VB.NET · .NET · SQL Server</text>
+    <text x="44" y="388" class="blue">Shipped across production releases</text>
+  </g>
+
+  <g class="p3">
+    <rect x="308" y="214" width="264" height="202" rx="9" class="card"/>
+    <text x="324" y="236" class="blue">CASE 02 &amp; 03 · INTEGRATIONS &amp; B2B</text>
+    <text x="324" y="256" class="h3">APIs, OAuth 2.0, XML &amp; Excel app</text>
+    <text x="324" y="278" class="txt">Service integrations, OAuth 2.0/SMTP</text>
+    <text x="324" y="296" class="txt">mail auth, schema-validated XML,</text>
+    <text x="324" y="314" class="txt">plus a standalone B2B app for generic</text>
+    <text x="324" y="332" class="txt">template-driven Excel DB imports.</text>
+    <text x="324" y="366" class="mono">REST · OAuth 2.0 · XML/XSD · Excel</text>
+    <text x="324" y="388" class="accent">Decoupled &amp; reusable tooling</text>
+  </g>
+
+  <g class="p4">
+    <rect x="588" y="214" width="264" height="202" rx="9" class="card"/>
+    <text x="604" y="236" class="accent">CASE 04 · RELIABILITY &amp; QUALITY</text>
+    <text x="604" y="256" class="h3">Concurrency, security &amp; nightly CI</text>
+    <text x="604" y="278" class="txt">Resolved race conditions, rolled out</text>
+    <text x="604" y="296" class="txt">soft delete across queries, fixed SQL</text>
+    <text x="604" y="314" class="txt">injection risks, hardened secrets,</text>
+    <text x="604" y="332" class="txt">and added PR rules &amp; nightly CI tests.</text>
+    <text x="604" y="366" class="mono">Concurrency · Soft Delete · CI</text>
+    <text x="604" y="388" class="blue">Safer changes in live systems</text>
+  </g>
+
+  <g class="curA">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#77E3C0"/>
+    <rect x="11" y="13" width="60" height="16" rx="4" fill="#77E3C0"/>
+    <text x="17" y="24" class="tag">Inventory</text>
+  </g>
+  <g class="curB">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#58a6ff"/>
+    <rect x="11" y="13" width="76" height="16" rx="4" fill="#58a6ff"/>
+    <text x="17" y="24" class="tag">Integrations</text>
+  </g>
+  <g class="curC">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#f78166"/>
+    <rect x="11" y="13" width="66" height="16" rx="4" fill="#f78166"/>
+    <text x="17" y="24" class="tag">Reliability</text>
+  </g>
+</svg>

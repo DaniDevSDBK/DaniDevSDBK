@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 310" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <pattern id="grid4en" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#18202a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .cta { fill: #111b24; stroke: #77E3C0; stroke-width: 1; }
+    .h3 { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13.5px; font-weight: 700; }
+    .accent { fill: #77E3C0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .blue { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11.5px; font-weight: 600; }
+    .txt { fill: #9da7b3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 12px; }
+    .mono { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
+    .tag { fill: #0d1117; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 10px; font-weight: 700; }
+
+    .d1 { opacity: 0.22; animation: show4en 0.45s ease-out 0.2s forwards; }
+    .d2 { opacity: 0.22; animation: show4en 0.45s ease-out 0.95s forwards; }
+    .d3 { opacity: 0.22; animation: show4en 0.45s ease-out 1.7s forwards; }
+    @keyframes show4en {
+      to { opacity: 1; }
+    }
+
+    .curD1 { animation: mD1en 3.6s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curD2 { animation: mD2en 3.8s cubic-bezier(0.22,1,0.36,1) forwards; }
+    .curD3 { animation: mD3en 4.0s cubic-bezier(0.22,1,0.36,1) forwards; }
+
+    @keyframes mD1en {
+      0% { transform: translate(85px, 55px); }
+      50% { transform: translate(240px, 120px); }
+      100% { transform: translate(395px, 165px); }
+    }
+    @keyframes mD2en {
+      0% { transform: translate(740px, 60px); }
+      50% { transform: translate(620px, 125px); }
+      100% { transform: translate(800px, 165px); }
+    }
+    @keyframes mD3en {
+      0% { transform: translate(140px, 260px); }
+      50% { transform: translate(450px, 240px); }
+      100% { transform: translate(780px, 258px); }
+    }
+  </style>
+
+  <rect class="bg" x="1" y="1" width="878" height="308" rx="12"/>
+  <rect x="2" y="2" width="876" height="306" rx="11" fill="url(#grid4en)"/>
+
+  <circle cx="22" cy="20" r="4.5" fill="#ff5f56"/><circle cx="38" cy="20" r="4.5" fill="#ffbd2e"/><circle cx="54" cy="20" r="4.5" fill="#27c93f"/>
+  <text x="74" y="24" class="mono">04 · domains-principles-and-collaboration.canvas — Ready for Product Teams</text>
+
+  <!-- Left: Business Domains -->
+  <g class="d1">
+    <rect x="28" y="42" width="404" height="156" rx="9" class="card"/>
+    <text x="46" y="64" class="blue">BUSINESS DOMAINS EXPERIENCE</text>
+    <text x="46" y="88" class="txt">• Finance, administration, invoicing &amp; regulatory compliance</text>
+    <text x="46" y="110" class="txt">• Commercial operations, warehouse, inventory &amp; logistics</text>
+    <text x="46" y="132" class="txt">• Customer support, live incident triage &amp; root-cause fixes</text>
+    <text x="46" y="154" class="txt">• Cross-system data exchange, file pipelines &amp; API contracts</text>
+    <text x="46" y="180" class="accent">Understand the workflow and rules first; then design the change</text>
+  </g>
+
+  <!-- Right: Engineering Principles -->
+  <g class="d2">
+    <rect x="448" y="42" width="404" height="156" rx="9" class="card"/>
+    <text x="466" y="64" class="accent">ENGINEERING PRINCIPLES</text>
+    <text x="466" y="88" class="txt">• Backward compatibility &amp; respect for live production data</text>
+    <text x="466" y="110" class="txt">• Preventive reliability: concurrency, transactions &amp; security</text>
+    <text x="466" y="132" class="txt">• Pragmatic automation: CI, integration tests &amp; reviewed AI</text>
+    <text x="466" y="154" class="txt">• Clear alignment across product, support &amp; engineering</text>
+    <text x="466" y="180" class="blue">Maintainable software shipped to real users</text>
+  </g>
+
+  <!-- Bottom: Collaboration / Contact -->
+  <g class="d3">
+    <rect x="28" y="212" width="824" height="76" rx="9" class="cta"/>
+    <text x="48" y="242" class="h3">Looking for a .NET / Backend / Integrations engineer or building business software?</text>
+    <text x="48" y="266" class="txt">Open to product engineering teams &amp; collaboration  ·  <tspan fill="#77E3C0">danidevsdbk@gmail.com</tspan>  ·  <tspan fill="#58a6ff">danidevsdbk.github.io/Portfolio.v2</tspan></text>
+  </g>
+
+  <g class="curD1">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#58a6ff"/>
+    <rect x="11" y="13" width="58" height="16" rx="4" fill="#58a6ff"/>
+    <text x="17" y="24" class="tag">Domain</text>
+  </g>
+  <g class="curD2">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#77E3C0"/>
+    <rect x="11" y="13" width="60" height="16" rx="4" fill="#77E3C0"/>
+    <text x="17" y="24" class="tag">Quality</text>
+  </g>
+  <g class="curD3">
+    <path d="M0 0 L0 16 L4.5 12.5 L8 20 L10.5 18.5 L7 11 L12.5 11 Z" fill="#d2a8ff"/>
+    <rect x="11" y="13" width="52" height="16" rx="4" fill="#d2a8ff"/>
+    <text x="17" y="24" class="tag">Ready</text>
+  </g>
+</svg>
